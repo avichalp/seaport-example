@@ -11,3 +11,12 @@ GAS_REPORT=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+#### Deploy Script
+
+It deployes Seaport locally with a test ERC721 token.
+
+```
+npx hardhat run scripts/deploy.js --network localhost
+```
+
